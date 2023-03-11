@@ -4,7 +4,6 @@ import { apiPost } from '../lib/Fetcher'
 import { useLocation } from 'wouter'
 
 const LobbyPage = () => {
-  const [roomName, setRoomName] = useState("")
   const [location, setLocation] = useLocation()
   const [identity, setIdentity] = useState("")
 

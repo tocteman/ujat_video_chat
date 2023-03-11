@@ -37,6 +37,8 @@ const VideoRoomPage = () => {
   }, [room])
 
   return (
+    <>
+    <h2 className="text-neutral-300">Cuarto <span className="text-neutral-50">{roomName}</span></h2>
     <div className="flex space-x-8">
       <div>
         {room ? (
@@ -54,6 +56,7 @@ const VideoRoomPage = () => {
       ))}
       </div>
     </div>
+    </>
 
 
   )
